@@ -11,9 +11,24 @@ def index():
     return render_template("index.html")
 
 
-@app.route("/yemekler")
-def yemekler():
+@app.route("/tarihce")
+def history():
+    return render_template("history.html")
+
+
+@app.route("/yiyecekler")
+def yiyecekler():
     return render_template("foods.html")
+
+
+@app.route("/yerler")
+def locations():
+    return render_template("locations.html")
+
+
+@app.route("/mekanlar")
+def places():
+    return render_template("places.html")
 
 
 if __name__ == "__main__":

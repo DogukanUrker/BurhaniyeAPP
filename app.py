@@ -31,6 +31,11 @@ def places():
     return render_template("places.html")
 
 
+@app.errorhandler(404)
+def notFound(e):
+    return redirect("/"), 301
+
+
 if __name__ == "__main__":
     app.run(
         debug=True,

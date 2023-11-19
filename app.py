@@ -12,7 +12,7 @@ def index():
 
 
 @app.route("/yemekler")
-def index():
+def yemekler():
     return render_template("foods.html")
 
 

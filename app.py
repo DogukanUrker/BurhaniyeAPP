@@ -31,6 +31,11 @@ def places():
     return render_template("places.html")
 
 
+@app.route("/hakkinda")
+def about():
+    return render_template("about.html")
+
+
 @app.errorhandler(404)
 def notFound(e):
     return redirect("/"), 301

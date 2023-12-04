@@ -1,6 +1,9 @@
-from flask import Flask, render_template, redirect
+import json
 import socket
 import secrets
+from random import choice
+from flask import Flask, render_template, redirect
+
 
 app = Flask(__name__)
 app.secret_key = secrets.token_urlsafe(32)
@@ -18,7 +21,17 @@ def history():
 
 @app.route("/yiyecekler")
 def yiyecekler():
-    return render_template("foods.html")
+    file = open("foods.json")
+    data = json.load(file)
+    food = data[0]
+
+    return render_template(
+        "foods.html",
+        foodID=food["id"],
+        foodName=food["name"],
+        foodImage=food["image"],
+        foodSound=food["sound"],
+    )
 
 
 @app.route("/yerler")

@@ -1,3 +1,3 @@
 # BurhaniyeAPP
  
-TUBITAK project.
+TUBITAK project about Burhaniye.

@@ -1,62 +1,62 @@
 [
   {
-    "id": "1",
+    "id": 1,
     "name": "Ayvalik Tostu",
-    "image": "../Foods/ayvalikTostu/ayvalikTostu1.png",
-    "sound": ""
+    "image": "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Foods/ayvalikTostu/ayvalikTostu1.png",
+    "sound": "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Foods/ayvalikTostu/ayvalikTostu.ogg"
   },
   {
-    "id": "2",
+    "id": 2,
     "name": "Dugun Mantisi",
-    "image": "",
-    "sound": ""
+    "image": "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Foods/dugunMantisi/dugunMantisi1.png",
+    "sound": "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Foods/dugunMantisi/dugunMantisi.ogg"
   },
   {
-    "id": "3",
+    "id": 3,
     "name": "Hosmerim Tatlisi",
-    "image": "",
-    "sound": ""
+    "image": "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Foods/hosmerimTatlisi/hosmerimTatlisi1.png",
+    "sound": "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Foods/hosmerimTatlisi/hosmerimTatlisi.ogg"
   },
   {
-    "id": "4",
+    "id": 4,
     "name": "Keskes",
-    "image": "",
-    "sound": ""
+    "image": "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Foods/keskek/keskek1.png",
+    "sound": "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Foods/keskek/keskek.ogg"
   },
   {
-    "id": "5",
+    "id": 5,
     "name": "Mafis Tatlisi",
-    "image": "",
-    "sound": ""
+    "image": "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Foods/mafisTatlisi/mafisTatlisi1.png",
+    "sound": "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Foods/mafisTatlisi/mafisTatlisi.ogg"
   },
   {
-    "id": "6",
+    "id": 6,
     "name": "Papalina Baligi",
-    "image": "",
-    "sound": ""
+    "image": "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Foods/papalinaBaligi/papalinaBaligi1.png",
+    "sound": "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Foods/papalinaBaligi/papalinaBaligi.ogg"
   },
   {
-    "id": "7",
+    "id": 7,
     "name": "Peynirli Patlican",
-    "image": "",
-    "sound": ""
+    "image": "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Foods/peynirliPatlican/peynirliPatlican1.png",
+    "sound": "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Foods/peynirliPatlican/peynirliPatlican.ogg"
   },
   {
-    "id": "8",
+    "id": 8,
     "name": "Sacakli Manti",
-    "image": "",
-    "sound": ""
+    "image": "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Foods/sacakliManti/sacakliManti1.png",
+    "sound": "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Foods/sacakliManti/sacakliManti.ogg"
   },
   {
-    "id": "9",
+    "id": 9,
     "name": "Susurluk Tostu ve Ayrani",
-    "image": "",
-    "sound": ""
+    "image": "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Foods/susurlukTostuVeAyrani/susurlukTostuVeAyrani1.png",
+    "sound": "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Foods/susurlukTostuVeAyrani/susurlukTostuVeAyrani.ogg"
   },
   {
-    "id": "10",
+    "id": 10,
     "name": "Tirit",
-    "image": "",
-    "sound": ""
+    "image": "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Foods/tirit/tirit1.png",
+    "sound": "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Foods/tirit/tirit.ogg"
   }
 ]

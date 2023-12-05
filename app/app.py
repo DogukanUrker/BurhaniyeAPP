@@ -19,14 +19,18 @@ def history():
     return render_template("history.html")
 
 
-@app.route("/yiyecekler")
-def yiyecekler():
+@app.route("/yemekler/<id>")
+def yemekler(id):
+    print(id)
+    id = int(id)
     file = open("foods.json")
     data = json.load(file)
-    food = data[0]
-
+    food = data[id]
+    print(food["name"])
+    id += 1
     return render_template(
         "foods.html",
+        id=id,
         foodID=food["id"],
         foodName=food["name"],
         foodImage=food["image"],

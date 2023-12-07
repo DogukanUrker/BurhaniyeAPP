@@ -9,10 +9,16 @@
   <audio controls class="mx-auto">
     <source src="{{foodSound}}" type="audio/ogg" />
   </audio>
+  {% if id == 9 %}
+  <a href="/" class="text-blue-200 font-bold text-sm text-center mt-4"
+    >3.Seviyeye Gec 🚀</a
+  >
+  {% else%}
   <a
-    href="/yemekler/{{id}}"
+    href="/yemekler/{{id + 1}}"
     class="text-blue-200 font-bold text-sm text-center mt-4"
     >Siradakine Gec 🚀</a
   >
+  {% endif %}
 </div>
 {% endblock body %}

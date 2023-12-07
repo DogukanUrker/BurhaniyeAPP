@@ -1,7 +1,6 @@
 import json
 import socket
 import secrets
-from random import choice
 from flask import Flask, render_template, redirect
 
 
@@ -21,13 +20,10 @@ def history():
 
 @app.route("/yemekler/<id>")
 def yemekler(id):
-    print(id)
     id = int(id)
     file = open("foods.json")
     data = json.load(file)
-    food = data[id]
-    print(food["name"])
-    id += 1
+    food = data[id - 2]
     return render_template(
         "foods.html",
         id=id,

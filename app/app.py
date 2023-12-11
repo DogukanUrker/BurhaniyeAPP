@@ -2,7 +2,9 @@ import json
 import socket
 import secrets
 from flask import Flask, render_template, redirect
-
+from data.foods import foodName, foodImage, foodSound
+from data.locations import locationName, locationImage, locationSound
+from data.places import placeName, placeImage, placeSound
 
 app = Flask(__name__)
 app.secret_key = secrets.token_urlsafe(32)
@@ -21,37 +23,42 @@ def history():
 @app.route("/yemekler/<id>")
 def yemekler(id):
     id = int(id)
-    file = open("foods.json")
-    data = json.load(file)
-    food = data[id - 2]
     return render_template(
         "foods.html",
         id=id,
-        foodID=food["id"],
-        foodName=food["name"],
-        foodImage=food["image"],
-        foodSound=food["sound"],
+        foodName=foodName[id],
+        foodImage=foodImage[id],
+        foodSound=foodSound[id],
     )
 
 
-@app.route("/yerler")
-def locations():
-    return render_template("locations.html")
+@app.route("/yerler/<id>")
+def locations(id):
+    id = int(id)
+    return render_template(
+        "locations.html",
+        id=id,
+        locationName=locationName[id],
+        locationImage=locationImage[id],
+        locationSound=locationSound[id],
+    )
 
 
-@app.route("/mekanlar")
-def places():
-    return render_template("places.html")
+@app.route("/mekanlar/<id>")
+def places(id):
+    id = int(id)
+    return render_template(
+        "places.html",
+        id=id,
+        placeName=placeName[id],
+        placeImage=placeImage[id],
+        placeSound=placeSound[id],
+    )
 
 
 @app.route("/hakkinda")
 def about():
     return render_template("about.html")
-
-
-@app.errorhandler(404)
-def notFound(e):
-    return redirect("/"), 301
 
 
 if __name__ == "__main__":

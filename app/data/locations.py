@@ -20,7 +20,7 @@ locationSound = [
     "",
     "",
     "",
-    "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Locations/adramytteionAncientCity/adramytteionAncientCity.ogg",
-    "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Locations/hareketliMuseum/hareketliMuseum.ogg",
-    "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Locations/pelitkoy/adramytteionAncientCity.ogg",
+    "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Locations/adramytteionAncientCity/adramytteionAncientCity.mp3",
+    "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Locations/hareketliMuseum/hareketliMuseum.mp3",
+    "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Locations/pelitkoy/adramytteionAncientCity.mp3",
 ]

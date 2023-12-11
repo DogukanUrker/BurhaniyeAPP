@@ -14,7 +14,7 @@ placeImage = [
 
 placeSound = [
     "",
-    "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Places/antandrusAncientCity/antandrusAncientCity.ogg",
-    "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Places/saatliMosque/saatliMosque.ogg",
-    "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Places/sevimNecdetCityLibrary/sevimNecdetCityLibrary.ogg",
+    "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Places/antandrusAncientCity/antandrusAncientCity.mp3",
+    "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Places/saatliMosque/saatliMosque.mp3",
+    "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Places/sevimNecdetCityLibrary/sevimNecdetCityLibrary.mp3",
 ]

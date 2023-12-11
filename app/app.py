@@ -1,4 +1,3 @@
-import json
 import socket
 import secrets
 from flask import Flask, render_template, redirect

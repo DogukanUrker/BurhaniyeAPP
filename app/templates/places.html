@@ -1,3 +1,24 @@
 {% extends 'layout.html'%} {%block head%}
-<title>Mekanlar</title>
-{% endblock head %} {%block body%} {% endblock body %}
+<title>Yerler</title>
+{% endblock head %} {%block body%}
+<div class="w-fit mx-auto font-semibold text-center">
+  <h1 class="text-blue-200 font-bold text-2xl text-center mb-2">
+    {{placeName}}
+  </h1>
+  <img class="w-96 mx-auto rounded my-2" src="{{placeImage}}" />
+  <audio controls class="mx-auto">
+    <source src="{{placeSound}}" type="audio/ogg" />
+  </audio>
+  {% if id == 3 %}
+  <a href="/" class="text-blue-200 font-bold text-sm text-center mt-4"
+    >Bitir 🚀</a
+  >
+  {% else%}
+  <a
+    href="/mekanlar/{{id + 1}}"
+    class="text-blue-200 font-bold text-sm text-center mt-4"
+    >Siradakine Gec 🚀</a
+  >
+  {% endif %}
+</div>
+{% endblock body %}

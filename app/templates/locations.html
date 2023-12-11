@@ -1,3 +1,24 @@
 {% extends 'layout.html'%} {%block head%}
 <title>Yerler</title>
-{% endblock head %} {%block body%} {% endblock body %}
+{% endblock head %} {%block body%}
+<div class="w-fit mx-auto font-semibold text-center">
+  <h1 class="text-blue-200 font-bold text-2xl text-center mb-2">
+    {{locationName}}
+  </h1>
+  <img class="w-96 mx-auto rounded my-2" src="{{locationImage}}" />
+  <audio controls class="mx-auto">
+    <source src="{{locationSound}}" type="audio/ogg" />
+  </audio>
+  {% if id == 5 %}
+  <a href="/" class="text-blue-200 font-bold text-sm text-center mt-4"
+    >4.Seviyeye Gec 🚀</a
+  >
+  {% else%}
+  <a
+    href="/yerler/{{id + 1}}"
+    class="text-blue-200 font-bold text-sm text-center mt-4"
+    >Siradakine Gec 🚀</a
+  >
+  {% endif %}
+</div>
+{% endblock body %}

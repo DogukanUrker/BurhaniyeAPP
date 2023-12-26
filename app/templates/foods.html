@@ -9,16 +9,18 @@
   <audio controls class="mx-auto">
     <source src="{{foodSound}}" type="audio/mp3" />
   </audio>
-  {% if id == 11 %}
-  <a href="/yerler/3" class="text-blue-200 font-bold text-sm text-center mt-4"
-    >3.Seviyeye Gec 🚀</a
-  >
-  {% else%}
-  <a
-    href="/yemekler/{{id + 1}}"
-    class="text-blue-200 font-bold text-sm text-center mt-4"
-    >Siradakine Gec 🚀</a
-  >
-  {% endif %}
+  <div class="mt-3">
+    {% if id == 11 %}
+    <a href="/tebrikler2" class="text-blue-200 font-bold text-sm text-center"
+      >🚀 DEVAM ETMEK ICIN TIKLA 🚀</a
+    >
+    {% else%}
+    <a
+      href="/yemekler/{{id + 1}}"
+      class="text-blue-200 font-bold text-2xl text-center"
+      >🚀 DEVAM ETMEK ICIN TIKLA 🚀</a
+    >
+    {% endif %}
+  </div>
 </div>
 {% endblock body %}

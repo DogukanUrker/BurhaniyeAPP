@@ -5,20 +5,26 @@
   <h1 class="text-blue-200 font-bold text-2xl text-center mb-2">
     {{placeName}}
   </h1>
-  <img class="w-96 mx-auto rounded my-2" src="{{placeImage}}" />
-  <audio controls class="mx-auto">
-    <source src="{{placeSound}}" type="audio/mp3" />
-  </audio>
-  {% if id == 3 %}
-  <a href="/" class="text-blue-200 font-bold text-sm text-center mt-4"
-    >Bitir 🚀</a
-  >
-  {% else%}
-  <a
-    href="/mekanlar/{{id + 1}}"
-    class="text-blue-200 font-bold text-sm text-center mt-4"
-    >Siradakine Gec 🚀</a
-  >
-  {% endif %}
+  <div class="my-2">
+    <img class="w-96 mx-auto rounded" src="{{placeImage}}" />
+  </div>
+  <div class="my-2">
+    <audio controls class="mx-auto">
+      <source src="{{placeSound}}" type="audio/mp3" />
+    </audio>
+  </div>
+  <div class="mt-3">
+    {% if id == 3 %}
+    <a href="/zeytin" class="text-blue-200 font-bold text-sm text-center"
+      >🚀 DEVAM ETMEK ICIN TIKLA 🚀</a
+    >
+    {% else%}
+    <a
+      href="/mekanlar/{{id + 1}}"
+      class="text-blue-200 font-bold text-sm text-center"
+      >🚀 DEVAM ETMEK ICIN TIKLA 🚀</a
+    >
+    {% endif %}
+  </div>
 </div>
 {% endblock body %}

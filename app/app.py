@@ -60,6 +60,71 @@ def about():
     return render_template("about.html")
 
 
+@app.route("/tebrikler1")
+def greet1():
+    return render_template("greet1.html")
+
+
+@app.route("/tebrikler2")
+def greet2():
+    return render_template("greet2.html")
+
+
+@app.route("/tebrikler3")
+def greet3():
+    return render_template("greet3.html")
+
+
+@app.route("/tebrikler4")
+def greet4():
+    return render_template("greet4.html")
+
+
+@app.route("/tebrikler5")
+def greet5():
+    return render_template("greet5.html")
+
+
+@app.route("/zeytin")
+def zeytin():
+    return render_template("zeytin.html")
+
+
+@app.route("/halkoyunlari")
+def halkoyunlari():
+    return render_template("halkoyunlari.html")
+
+
+@app.route("/elsanatlari")
+def elsanatlari():
+    return render_template("elsanatlari.html")
+
+
+@app.route("/deveguresi")
+def deveguresi():
+    return render_template("deveguresi.html")
+
+
+@app.route("/necdettosun")
+def necdettosun():
+    return render_template("necdettosun.html")
+
+
+@app.route("/erdaltosun")
+def erdaltosun():
+    return render_template("erdaltosun.html")
+
+
+@app.route("/turkuler")
+def turkuler():
+    return render_template("turkuler.html")
+
+
+@app.route("/test")
+def test():
+    return render_template("test.html")
+
+
 if __name__ == "__main__":
     app.run(
         debug=True,

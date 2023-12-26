@@ -37,8 +37,8 @@ foodSound = [
     "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Foods/keskek/keskek.mp3",
     "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Foods/mafisTatlisi/mafisTatlisi.mp3",
     "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Foods/papalinaBaligi/papalinaBaligi.mp3",
-    "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Foods/peynirliPatlican/peynirliPatlican.mp3",
-    "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Foods/sacakliManti/sacakliManti.mp3",
-    "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Foods/susurlukTostuVeAyrani/susurlukTostuVeAyrani.mp3",
+    "https://github.com/DogukanUrker/BurhaniyeAPP/raw/main/app/db/Foods/peynirliPatlican/peynirlipatlican.mp3",
+    "https://github.com/DogukanUrker/BurhaniyeAPP/raw/main/app/db/Foods/sacakliManti/sacaklimanti.mp3",
+    "https://github.com/DogukanUrker/BurhaniyeAPP/raw/main/app/db/Foods/susurlukTostuVeAyrani/susurluktostuveayrani.mp3",
     "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Foods/tirit/tirit.mp3",
 ]

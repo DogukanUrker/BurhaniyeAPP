@@ -2,9 +2,9 @@ locationName = [
     "",
     "",
     "",
-    "Adramyttium Antik Kenti",
-    "Hereketli Muze",
-    "Pelitkoy",
+    "🌆 ADRAMYTTİUM ANTİK KENTİ 🏙️",
+    "KAREKETLİ MÜZE",
+    "PELİT KOY",
 ]
 
 locationImage = [

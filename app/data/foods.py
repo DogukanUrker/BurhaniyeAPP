@@ -1,16 +1,16 @@
 foodName = [
     "",
     "",
-    "Ayvalik Tostu",
-    "Dugun Mantisi",
-    "Hosmerim Tatlisi",
-    "Keskes",
-    "Mafis Tatlisi",
-    "Papalina Baligi",
-    "Peynirli Patlican",
-    "Sacakli Manti",
-    "Susurluk Tostu ve Ayrani",
-    "Tirit",
+    "AYVALIK TOSTU",
+    "DÜĞÜN MANTISI",
+    "HÖŞMERİM TATLISI",
+    "KEŞKEK",
+    "MAFİŞ TATLISI",
+    "PAPALİNA BALİĞI",
+    "PEYNİRLİ PATLICAN",
+    "SAÇAKLI MANTI",
+    "SUSURLUK TOSTU VE AYRANI",
+    "TİRİT",
 ]
 
 foodImage = [

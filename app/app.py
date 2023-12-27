@@ -1,6 +1,6 @@
 import socket
 import secrets
-from flask import Flask, render_template, redirect, url_for
+from flask import Flask, render_template
 from data.foods import foodName, foodImage, foodSound
 from data.locations import locationName, locationImage, locationSound
 from data.places import placeName, placeImage, placeSound

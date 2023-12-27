@@ -8,20 +8,20 @@
   <div class="my-2">
     <img class="w-96 mx-auto rounded" src="{{placeImage}}" />
   </div>
-  <div class="my-2">
-    <audio controls class="mx-auto">
+  <div class="my-2 mx-auto w-fit">
+    <audio controls>
       <source src="{{placeSound}}" type="audio/mp3" />
     </audio>
   </div>
   <div class="mt-3">
     {% if id == 3 %}
-    <a href="/zeytin" class="text-blue-200 font-bold text-sm text-center"
+    <a href="/zeytin" class="text-blue-200 font-bold text-2xl text-center"
       >🚀 DEVAM ETMEK ICIN TIKLA 🚀</a
     >
     {% else%}
     <a
       href="/mekanlar/{{id + 1}}"
-      class="text-blue-200 font-bold text-sm text-center"
+      class="text-blue-200 font-bold text-2xl text-center"
       >🚀 DEVAM ETMEK ICIN TIKLA 🚀</a
     >
     {% endif %}

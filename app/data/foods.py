@@ -6,7 +6,7 @@ foodName = [
     "HÖŞMERİM TATLISI",
     "KEŞKEK",
     "MAFİŞ TATLISI",
-    "PAPALİNA BALİĞI",
+    "PAPALİNA BALIĞI",
     "PEYNİRLİ PATLICAN",
     "SAÇAKLI MANTI",
     "SUSURLUK TOSTU VE AYRANI",

@@ -22,5 +22,5 @@ locationSound = [
     "",
     "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Locations/adramytteionAncientCity/adramytteionAncientCity.mp3",
     "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Locations/hareketliMuseum/hareketliMuseum.mp3",
-    "https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Locations/pelitkoy/adramytteionAncientCity.mp3",
+    "https://github.com/DogukanUrker/BurhaniyeAPP/raw/main/app/db/Locations/pelitkoy/pelitkoy.mp3",
 ]

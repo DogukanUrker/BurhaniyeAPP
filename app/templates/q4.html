@@ -1,0 +1,36 @@
+{% extends 'layout.html'%} {%block head%} {% endblock head %} {%block body%}
+<div class="flex flex-col font-semibold mb-8">
+  <h1 class="text-center text-2xl mb-4">
+    AŞAĞIDAKİ YİYECEĞİN İSMİ NEDİR?
+  </h1>
+  <img
+    class="w-96 mx-auto rounded my-2"
+    src="https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Foods/papalinaBaligi/papalinaBaligi1.png"
+  />
+  <button
+    onclick="trueAnswer()"
+    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto"
+  >
+    PAPALİNA BALIĞI
+  </button>
+  <button
+    onclick="falseAnswer()"
+    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto"
+  >
+    KEŞKEK
+  </button>
+  <button
+    onclick="falseAnswer()"
+    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto"
+  >
+    DÜĞÜN MANTISI
+  </button>
+  <button
+    onclick="falseAnswer()"
+    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto"
+  >
+    SAÇAKLI MANTI
+  </button>
+</div>
+<script src="{{ url_for('static', filename='js/q4.js') }}"></script>
+{% endblock body %}

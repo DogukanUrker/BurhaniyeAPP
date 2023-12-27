@@ -1,0 +1,37 @@
+{% extends 'layout.html'%} {%block head%} <title>SORU</title>{% endblock head %}
+{%block body%}
+<div class="flex flex-col font-semibold mb-8">
+  <h1 class="text-center text-2xl mb-4">
+    AŞAĞIDAKİ FOTOĞRAF HANGİ ÜNLÜMÜZE AİTTİR?
+  </h1>
+  <img
+    class="w-96 mx-auto rounded my-2"
+    src="https://github.com/DogukanUrker/BurhaniyeAPP/blob/main/app/db/oyuncular/necdettostun/OIP.jpg?raw=true"
+  />
+  <button
+    onclick="falseAnswer()"
+    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto"
+  >
+    ERDAL TOSUN
+  </button>
+  <button
+    onclick="falseAnswer()"
+    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto"
+  >
+    GÖKSEL ERSOY
+  </button>
+  <button
+    onclick="trueAnswer()"
+    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto"
+  >
+    NECDET TOSUN
+  </button>
+  <button
+    onclick="falseAnswer()"
+    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto"
+  >
+    YILMAZ GRUDA
+  </button>
+</div>
+<script src="{{ url_for('static', filename='js/q10.js') }}"></script>
+{% endblock body %}

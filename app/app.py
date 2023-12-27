@@ -120,14 +120,59 @@ def turkuler():
     return render_template("turkuler.html")
 
 
-@app.route("/test")
-def test():
-    return render_template("test.html")
-
-
 @app.errorhandler(404)
 def notFound(e):
     return render_template("404.html"), 404
+
+
+@app.route("/soru1")
+def q1():
+    return render_template("q1.html")
+
+
+@app.route("/soru2")
+def q2():
+    return render_template("q2.html")
+
+
+@app.route("/soru3")
+def q3():
+    return render_template("q3.html")
+
+
+@app.route("/soru4")
+def q4():
+    return render_template("q4.html")
+
+
+@app.route("/soru5")
+def q5():
+    return render_template("q5.html")
+
+
+@app.route("/soru6")
+def q6():
+    return render_template("q6.html")
+
+
+@app.route("/soru7")
+def q7():
+    return render_template("q7.html")
+
+
+@app.route("/soru8")
+def q8():
+    return render_template("q8.html")
+
+
+@app.route("/soru9")
+def q9():
+    return render_template("q9.html")
+
+
+@app.route("/soru10")
+def q10():
+    return render_template("q10.html")
 
 
 if __name__ == "__main__":

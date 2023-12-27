@@ -1,6 +1,6 @@
 import socket
 import secrets
-from flask import Flask, render_template, redirect
+from flask import Flask, render_template, redirect, url_for
 from data.foods import foodName, foodImage, foodSound
 from data.locations import locationName, locationImage, locationSound
 from data.places import placeName, placeImage, placeSound
@@ -123,6 +123,11 @@ def turkuler():
 @app.route("/test")
 def test():
     return render_template("test.html")
+
+
+@app.errorhandler(404)
+def notFound(e):
+    return render_template("404.html"), 404
 
 
 if __name__ == "__main__":

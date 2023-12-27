@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     {% block head %} {% endblock head %}
     <script src="https://cdn.tailwindcss.com"></script>
-    <meta name="theme-color" content="#209ce5" />
+    <meta name="theme-color" content="#000" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/general.css') }}"
+    />
   </head>
-  <body class="bg-gradient-to-r from-cyan-500 to-blue-500 ">
-    <div class="flex items-center justify-center h-screen ">
+  <body class="h-full w-full backdrop-blur-md">
+    <div class="flex items-center justify-center h-screen">
       {% block body %} {% endblock body %}
     </div>
   </body>

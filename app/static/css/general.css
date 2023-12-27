@@ -1,0 +1,8 @@
+html {
+  background: black
+    url("https://www.creativefabrica.com/wp-content/uploads/2021/11/03/cloud-blue-horizontal-background-Graphics-19600793-1.jpg")
+    center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}

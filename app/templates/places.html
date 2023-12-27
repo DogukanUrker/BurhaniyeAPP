@@ -2,7 +2,7 @@
 <title>{{placeName}}</title>
 {% endblock head %} {%block body%}
 <div class="w-fit mx-auto font-semibold text-center">
-  <h1 class="text-blue-200 font-bold text-2xl text-center mb-2">
+  <h1 class="font-bold text-2xl text-center mb-2">
     {{placeName}}
   </h1>
   <div class="my-2">
@@ -15,13 +15,11 @@
   </div>
   <div class="mt-3">
     {% if id == 3 %}
-    <a href="/zeytin" class="text-blue-200 font-bold text-2xl text-center"
+    <a href="/zeytin" class="font-bold text-2xl text-center"
       >🚀 DEVAM ETMEK İÇİN TIKLA 🚀</a
     >
     {% else%}
-    <a
-      href="/mekanlar/{{id + 1}}"
-      class="text-blue-200 font-bold text-2xl text-center"
+    <a href="/mekanlar/{{id + 1}}" class="font-bold text-2xl text-center"
       >🚀 DEVAM ETMEK İÇİN TIKLA 🚀</a
     >
     {% endif %}

@@ -1,8 +1,8 @@
 placeName = [
     "",
     "🌆 ANTRANDROS ANTİK KENTİ 🏙️",
-    "⌚ SAATLİ MÜZE ⌚",
-    "📚 SEVİM NECET KENT KİTAPLIĞI 📚",
+    "⌚ SAATLİ CAMİ ⌚",
+    "📚 SEVİM-NECDET KENT KİTAPLIĞI 📚",
 ]
 
 placeImage = [

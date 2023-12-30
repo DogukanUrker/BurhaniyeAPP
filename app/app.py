@@ -175,6 +175,71 @@ def q10():
     return render_template("q10.html")
 
 
+@app.route("/soru11")
+def q11():
+    return render_template("q11.html")
+
+
+@app.route("/sontekrar")
+def sontekrar():
+    return render_template("sontekrar.html")
+
+
+@app.route("/tekrar1")
+def r1():
+    return render_template("r1.html")
+
+
+@app.route("/tekrar2")
+def r2():
+    return render_template("r2.html")
+
+
+@app.route("/tekrar3")
+def r3():
+    return render_template("r3.html")
+
+
+@app.route("/tekrar4")
+def r4():
+    return render_template("r4.html")
+
+
+@app.route("/tekrar5")
+def r5():
+    return render_template("r5.html")
+
+
+@app.route("/tekrar6")
+def r6():
+    return render_template("r6.html")
+
+
+@app.route("/tekrar7")
+def r7():
+    return render_template("r7.html")
+
+
+@app.route("/tekrar8")
+def r8():
+    return render_template("r8.html")
+
+
+@app.route("/tekrar9")
+def r9():
+    return render_template("r9.html")
+
+
+@app.route("/tekrar10")
+def r10():
+    return render_template("r10.html")
+
+
+@app.route("/tekrar11")
+def r11():
+    return render_template("r11.html")
+
+
 if __name__ == "__main__":
     app.run(
         debug=True,

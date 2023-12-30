@@ -1,38 +1,38 @@
 {% extends 'layout.html'%} {%block head%} {% endblock head %} {%block body%}
 <div class="flex flex-col font-semibold mb-8">
   <h1 class="text-center text-2xl mb-4">
-    AŞAĞIDAKİ GÖRSEL NEREYE AİTTİR?
+    AŞAĞIDAKİ YİYECEĞİN İSMİ NEDİR?
   </h1>
   <img
     class="w-96 mx-auto rounded my-2"
-    src="https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Locations/pelitkoy/maxresdefault.jpg"
+    src="https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Foods/keskek/keskek1.png"
   />
   <button
     onclick="falseAnswer()"
     class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-red-300 duration-100 ease-in-out"
   >
-    SAATLİ MÜZE
+    PEYNİRLİ PATLICAN
   </button>
   <button
     onclick="falseAnswer()"
     class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-red-300 duration-100 ease-in-out"
   >
-    ANTRANDROS ANTİK KENTİ
+    SAÇAKLI MANTI
   </button>
   <button
     onclick="falseAnswer()"
     class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-red-300 duration-100 ease-in-out"
   >
-    ADRAMYTTİUM ANTİK KENTİ
+    MAFİŞ TATLISI
   </button>
   <button
     onclick="trueAnswer()"
     class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-green-300 duration-100 ease-in-out"
   >
-    PELİTKÖY
+    KEŞKEK
   </button>
 </div>
-<script src="{{ url_for('static', filename='js/q6.js') }}"></script>
+<script src="{{ url_for('static', filename='js/r3.js') }}"></script>
 <audio
   id="audioCorrect"
   src="https://github.com/DogukanUrker/BurhaniyeAPP/raw/main/app/static/sounds/correct.mp3"

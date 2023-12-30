@@ -1,38 +1,38 @@
 {% extends 'layout.html'%} {%block head%} {% endblock head %} {%block body%}
 <div class="flex flex-col font-semibold mb-8">
   <h1 class="text-center text-2xl mb-4">
-    AŞAĞIDAKİ GÖRSEL NEREYE AİTTİR?
+    HANGİSİ BURHANİYE'YE AİT BİR HALK OYUNUDUR
   </h1>
   <img
     class="w-96 mx-auto rounded my-2"
-    src="https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Locations/pelitkoy/maxresdefault.jpg"
+    src="https://github.com/DogukanUrker/BurhaniyeAPP/blob/main/app/db/halk%20oyunlar/zeybek-dansi.jpg?raw=true"
   />
-  <button
-    onclick="falseAnswer()"
-    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-red-300 duration-100 ease-in-out"
-  >
-    SAATLİ MÜZE
-  </button>
-  <button
-    onclick="falseAnswer()"
-    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-red-300 duration-100 ease-in-out"
-  >
-    ANTRANDROS ANTİK KENTİ
-  </button>
-  <button
-    onclick="falseAnswer()"
-    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-red-300 duration-100 ease-in-out"
-  >
-    ADRAMYTTİUM ANTİK KENTİ
-  </button>
   <button
     onclick="trueAnswer()"
     class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-green-300 duration-100 ease-in-out"
   >
-    PELİTKÖY
+    ZEYBEK
+  </button>
+  <button
+    onclick="falseAnswer()"
+    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-red-300 duration-100 ease-in-out"
+  >
+    OMUZ HALAYI
+  </button>
+  <button
+    onclick="falseAnswer()"
+    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-red-300 duration-100 ease-in-out"
+  >
+    HALKA OYUNU
+  </button>
+  <button
+    onclick="falseAnswer()"
+    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-red-300 duration-100 ease-in-out"
+  >
+    BARAK HALAYI
   </button>
 </div>
-<script src="{{ url_for('static', filename='js/q6.js') }}"></script>
+<script src="{{ url_for('static', filename='js/r9.js') }}"></script>
 <audio
   id="audioCorrect"
   src="https://github.com/DogukanUrker/BurhaniyeAPP/raw/main/app/static/sounds/correct.mp3"

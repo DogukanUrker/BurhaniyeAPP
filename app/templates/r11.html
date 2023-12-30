@@ -1,38 +1,39 @@
-{% extends 'layout.html'%} {%block head%} {% endblock head %} {%block body%}
+{% extends 'layout.html'%} {%block head%} <title>SORU</title>{% endblock head %}
+{%block body%}
 <div class="flex flex-col font-semibold mb-8">
   <h1 class="text-center text-2xl mb-4">
-    AŞAĞIDAKİ GÖRSEL NEREYE AİTTİR?
+    AŞAĞIDAKİ FOTOĞRAF HANGİ ÜNLÜMÜZE AİTTİR?
   </h1>
   <img
     class="w-96 mx-auto rounded my-2"
-    src="https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Locations/pelitkoy/maxresdefault.jpg"
+    src="https://github.com/DogukanUrker/BurhaniyeAPP/blob/main/app/db/oyuncular/necdettostun/OIP.jpg?raw=true"
   />
   <button
     onclick="falseAnswer()"
     class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-red-300 duration-100 ease-in-out"
   >
-    SAATLİ MÜZE
+    ERDAL TOSUN
   </button>
   <button
     onclick="falseAnswer()"
     class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-red-300 duration-100 ease-in-out"
   >
-    ANTRANDROS ANTİK KENTİ
-  </button>
-  <button
-    onclick="falseAnswer()"
-    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-red-300 duration-100 ease-in-out"
-  >
-    ADRAMYTTİUM ANTİK KENTİ
+    GÖKSEL ERSOY
   </button>
   <button
     onclick="trueAnswer()"
     class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-green-300 duration-100 ease-in-out"
   >
-    PELİTKÖY
+    NECDET TOSUN
+  </button>
+  <button
+    onclick="falseAnswer()"
+    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-red-300 duration-100 ease-in-out"
+  >
+    YILMAZ GRUDA
   </button>
 </div>
-<script src="{{ url_for('static', filename='js/q6.js') }}"></script>
+<script src="{{ url_for('static', filename='js/r11.js') }}"></script>
 <audio
   id="audioCorrect"
   src="https://github.com/DogukanUrker/BurhaniyeAPP/raw/main/app/static/sounds/correct.mp3"

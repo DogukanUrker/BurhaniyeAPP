@@ -9,28 +9,36 @@
   />
   <button
     onclick="falseAnswer()"
-    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto"
+    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-red-300 duration-100 ease-in-out"
   >
     DÜĞÜN MANTISI
   </button>
   <button
     onclick="trueAnswer()"
-    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto"
+    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-green-300 duration-100 ease-in-out"
   >
     TİRİT
   </button>
   <button
     onclick="falseAnswer()"
-    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto"
+    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-red-300 duration-100 ease-in-out"
   >
     PAPALİNA BALIĞI
   </button>
   <button
     onclick="falseAnswer()"
-    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto"
+    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-red-300 duration-100 ease-in-out"
   >
     HÖŞMERİM TATLISI
   </button>
 </div>
 <script src="{{ url_for('static', filename='js/q2.js') }}"></script>
+<audio
+  id="audioCorrect"
+  src="https://github.com/DogukanUrker/BurhaniyeAPP/raw/main/app/static/sounds/correct.mp3"
+></audio>
+<audio
+  id="audioWrong"
+  src="https://github.com/DogukanUrker/BurhaniyeAPP/raw/main/app/static/sounds/wrong.mp3"
+></audio>
 {% endblock body %}

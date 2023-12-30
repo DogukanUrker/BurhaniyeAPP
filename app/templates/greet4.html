@@ -13,4 +13,10 @@
     >🚀 DEVAM ETMEK İÇİN TIKLA 🚀</a
   >
 </div>
+<audio
+  id="audioApplause"
+  src="https://github.com/DogukanUrker/BurhaniyeAPP/raw/main/app/static/sounds/applause.mp3"
+></audio>
+<button onclick="callSound()" id="soundBtn" class="hidden"></button>
+<script src="{{ url_for('static', filename='js/greet.js') }}"></script>
 {% endblock body %}

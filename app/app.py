@@ -180,6 +180,11 @@ def q11():
     return render_template("q11.html")
 
 
+@app.route("/soru12")
+def q12():
+    return render_template("q12.html")
+
+
 @app.route("/sontekrar")
 def sontekrar():
     return render_template("sontekrar.html")
@@ -238,6 +243,11 @@ def r10():
 @app.route("/tekrar11")
 def r11():
     return render_template("r11.html")
+
+
+@app.route("/tekrar12")
+def r12():
+    return render_template("r12.html")
 
 
 if __name__ == "__main__":

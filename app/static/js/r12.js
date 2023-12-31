@@ -2,7 +2,7 @@ function trueAnswer() {
   var audio = document.getElementById("audioCorrect");
   audio.play();
   alert("🎉 TEBRİKLER DOĞRU CEVAP 🎉");
-  window.location.replace("/soru12");
+  window.location.replace("/tebrikler5");
 }
 
 function falseAnswer() {

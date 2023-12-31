@@ -5,31 +5,31 @@
   </h1>
   <img
     class="w-96 mx-auto rounded my-2"
-    src="https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Foods/keskek/keskek1.png"
+    src="https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Foods/papalinaBaligi/papalinaBaligi1.png"
   />
+  <button
+    onclick="trueAnswer('/tekrar4')"
+    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-green-300 duration-100 ease-in-out"
+  >
+    PAPALİNA BALIĞI
+  </button>
   <button
     onclick="falseAnswer()"
     class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-red-300 duration-100 ease-in-out"
   >
-    PEYNİRLİ PATLICAN
+    KEŞKEK
+  </button>
+  <button
+    onclick="falseAnswer()"
+    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-red-300 duration-100 ease-in-out"
+  >
+    DÜĞÜN MANTISI
   </button>
   <button
     onclick="falseAnswer()"
     class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-red-300 duration-100 ease-in-out"
   >
     SAÇAKLI MANTI
-  </button>
-  <button
-    onclick="falseAnswer()"
-    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-red-300 duration-100 ease-in-out"
-  >
-    MAFİŞ TATLISI
-  </button>
-  <button
-    onclick="trueAnswer('/tekrar4')"
-    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-green-300 duration-100 ease-in-out"
-  >
-    KEŞKEK
   </button>
 </div>
 <script src="{{ url_for('static', filename='js/question.js') }}"></script>

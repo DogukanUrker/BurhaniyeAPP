@@ -1,35 +1,35 @@
 {% extends 'layout.html'%} {%block head%} {% endblock head %} {%block body%}
 <div class="flex flex-col font-semibold mb-8">
   <h1 class="text-center text-2xl mb-4">
-    AŞAĞIDAKİ YİYECEĞİN İSMİ NEDİR?
+    BURHANİYE'DE HANGİSİNİN FESTİVALİ DUZENLENİR
   </h1>
   <img
     class="w-96 mx-auto rounded my-2"
-    src="https://raw.githubusercontent.com/DogukanUrker/BurhaniyeAPP/main/app/db/Foods/ayvalikTostu/ayvalikTostu1.png"
+    src="https://github.com/DogukanUrker/BurhaniyeAPP/blob/main/app/db/zeytin/zeytin-ormanlarinin-kalbinde-hasat-senligi-122314-20211116.jpg?raw=true"
   />
+  <button
+    onclick="falseAnswer()"
+    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-red-300 duration-100 ease-in-out"
+  >
+    🥪 AYVALIK TOSTU 🥪
+  </button>
   <button
     onclick="trueAnswer('/tekrar2')"
     class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-green-300 duration-100 ease-in-out"
   >
-    AYVALIK TOSTU
+    🫒 ZEYTIN 🫒
   </button>
   <button
     onclick="falseAnswer()"
     class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-red-300 duration-100 ease-in-out"
   >
-    KEŞKEK
+    🐟 PAPALİNA BALIĞI 🐟
   </button>
   <button
     onclick="falseAnswer()"
     class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-red-300 duration-100 ease-in-out"
   >
-    PAPALİNA BALIĞI
-  </button>
-  <button
-    onclick="falseAnswer()"
-    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-red-300 duration-100 ease-in-out"
-  >
-    SUSURLUK TOSTU
+    🍕 PİZZA 🍕
   </button>
 </div>
 <script src="{{ url_for('static', filename='js/question.js') }}"></script>

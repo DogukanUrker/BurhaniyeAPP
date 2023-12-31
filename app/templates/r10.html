@@ -1,36 +1,35 @@
-{% extends 'layout.html'%} {%block head%} <title>SORU</title>{% endblock head %}
-{%block body%}
+{% extends 'layout.html'%} {%block head%} {% endblock head %} {%block body%}
 <div class="flex flex-col font-semibold mb-8">
   <h1 class="text-center text-2xl mb-4">
-    AŞAĞIDAKİ FOTOĞRAF HANGİ ÜNLÜMÜZE AİTTİR?
+    HANGİSİ BURHANİYE'YE AİT BİR HALK OYUNUDUR
   </h1>
   <img
     class="w-96 mx-auto rounded my-2"
-    src="https://github.com/DogukanUrker/BurhaniyeAPP/blob/main/app/db/oyuncular/necdettostun/OIP.jpg?raw=true"
+    src="https://github.com/DogukanUrker/BurhaniyeAPP/blob/main/app/db/halk%20oyunlar/zeybek-dansi.jpg?raw=true"
   />
-  <button
-    onclick="falseAnswer()"
-    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-red-300 duration-100 ease-in-out"
-  >
-    ERDAL TOSUN
-  </button>
-  <button
-    onclick="falseAnswer()"
-    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-red-300 duration-100 ease-in-out"
-  >
-    GÖKSEL ERSOY
-  </button>
   <button
     onclick="trueAnswer('/tekrar11')"
     class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-green-300 duration-100 ease-in-out"
   >
-    NECDET TOSUN
+    ZEYBEK
   </button>
   <button
     onclick="falseAnswer()"
     class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-red-300 duration-100 ease-in-out"
   >
-    YILMAZ GRUDA
+    OMUZ HALAYI
+  </button>
+  <button
+    onclick="falseAnswer()"
+    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-red-300 duration-100 ease-in-out"
+  >
+    HALKA OYUNU
+  </button>
+  <button
+    onclick="falseAnswer()"
+    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-red-300 duration-100 ease-in-out"
+  >
+    BARAK HALAYI
   </button>
 </div>
 <script src="{{ url_for('static', filename='js/question.js') }}"></script>

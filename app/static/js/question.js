@@ -1,8 +1,8 @@
-function trueAnswer() {
+function trueAnswer(direct) {
   var audio = document.getElementById("audioCorrect");
   audio.play();
   alert("🎉 TEBRİKLER DOĞRU CEVAP 🎉");
-  window.location.replace("/tekrar6");
+  window.location.replace(direct);
 }
 
 function falseAnswer() {

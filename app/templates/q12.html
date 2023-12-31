@@ -2,38 +2,38 @@
 {%block body%}
 <div class="flex flex-col font-semibold mb-8">
   <h1 class="text-center text-2xl mb-4">
-    AŞAĞIDAKİ FOTOĞRAF HANGİ ÜNLÜMÜZE AİTTİR?
+    ZENGİN KADIN ZEYTİN TOPLAMAYA GİDERKEN ZENGİNLİĞİNİ NASIL BELLİ EDERMİŞ?
   </h1>
   <img
     class="w-96 mx-auto rounded my-2"
-    src="https://github.com/DogukanUrker/BurhaniyeAPP/blob/main/app/db/oyuncular/necdettostun/OIP.jpg?raw=true"
+    src="https://th.bing.com/th/id/R.14173b2b6edd134bb7590ed5924bce43?rik=Ola9j%2b3NJBnDnQ&pid=ImgRaw&r=0"
   />
   <button
     onclick="falseAnswer()"
     class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-red-300 duration-100 ease-in-out"
   >
-    ERDAL TOSUN
+    ARABAYLA GİDEREK
   </button>
   <button
     onclick="falseAnswer()"
     class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-red-300 duration-100 ease-in-out"
   >
-    GÖKSEL ERSOY
+    GÖSTERİŞLİ TAKILAR TAKARAK
   </button>
   <button
-    onclick="trueAnswer()"
+    onclick="falseAnswer()"
+    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-red-300 duration-100 ease-in-out"
+  >
+    GÖSTERİŞLİ KIYAFETLER GİYEREK
+  </button>
+  <button
+    onclick="trueAnswer('/tebrikler4')"
     class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-green-300 duration-100 ease-in-out"
   >
-    NECDET TOSUN
-  </button>
-  <button
-    onclick="falseAnswer()"
-    class="block m-2 text-2xl bg-neutral-100 rounded p-4 w-96 mx-auto transition focus:bg-red-300 duration-100 ease-in-out"
-  >
-    YILMAZ GRUDA
+    GÜZEL VE PARLAK AYAKKABILAR GİYEREK
   </button>
 </div>
-<script src="{{ url_for('static', filename='js/q12.js') }}"></script>
+<script src="{{ url_for('static', filename='js/question.js') }}"></script>
 <audio
   id="audioCorrect"
   src="https://github.com/DogukanUrker/BurhaniyeAPP/raw/main/app/static/sounds/correct.mp3"

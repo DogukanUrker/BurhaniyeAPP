@@ -46,7 +46,7 @@ Git was used for version control. The application is completely open source. [Yo
 
 ### QR Code
 
-[QR Code Generator](https://www.qr-code-generator.com/) was used for the QR code. The link "<https://www.pythonanywhere.com/>" is embedded in the QR code.
+[QR Code Generator](https://www.qr-code-generator.com/) was used for the QR code. The link "<https://burhaniyem.pythonanywhere.com/>" is embedded in the QR code.
 
 ### Audio Files/Effects
 

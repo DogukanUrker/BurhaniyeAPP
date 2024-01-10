@@ -46,7 +46,7 @@ Sürüm kontrol için Git kullanılmıştır. Uygulama tamamen açık kaynak kod
 
 ### QR Kod
 
-QR kod için [QR Code Generator](https://www.qr-code-generator.com/) kullanılmıştır. QR kod içinde “<https://www.pythonanywhere.com/>” bağlantısı gömülüdür.
+QR kod için [QR Code Generator](https://www.qr-code-generator.com/) kullanılmıştır. QR kod içinde “<https://burhaniyem.pythonanywhere.com/>” bağlantısı gömülüdür.
 
 ### Ses Dosyaları/Efektleri
 
